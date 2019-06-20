@@ -1,0 +1,43 @@
+nav{
+  height: 75px;
+  background-color: #57068c;
+  display: flex;
+  align-content: flex-end;
+}
+
+.bg-image{
+  background: url(./Images/tandon.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+
+}
+
+
+.logo-link{
+  padding: 15px 50px 20px 40px;
+}
+
+.nav-page{
+  align-self: flex-end;
+
+}
+.nav-list{
+    list-style: none;
+    display: flex;
+    margin-left: 300px;
+    flex-wrap: wrap;
+}
+
+.nav-item a{
+  font-size: 20pt;
+  padding-right: 40px;
+  font-weight: 200;
+  color: white;
+  text-decoration: none;
+  font-family: 'Roboto Condensed', sans-serif;
+  justify-content: center;
+}
+
+.nav-item:hover a{
+  color: #DCDCDC;
+}
