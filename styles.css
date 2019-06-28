@@ -11,7 +11,12 @@ nav{
   background-repeat: no-repeat;
   background-size:contain;
   height: 1200px;
+  justify-content: center;
   display: flex;
+}
+
+.middle-ground{
+  display: inline-block;
   flex-direction: row;
   justify-content: center;
 }
@@ -87,7 +92,6 @@ body {
 .opaque-bg{
   background: rgba(255, 255, 255, .75);
   padding: 30px;
-  position:absolute;
   margin: 250px 0px 0px 0px;
 }
 
