@@ -5,7 +5,7 @@ var prevScrollpos = window.pageYOffset;
 
 window.onscroll = function() {
   var currentScrollPos = window.pageYOffset;
-  if (currentScrollPos >= "800"){
+  if (currentScrollPos >= "525"){
     document.getElementById("navbar").className = "solid";
   }
   else{
