@@ -78,7 +78,8 @@ html, body {
 .nav-item a{
   font-size: 18pt;
   font-weight: bolder;
-  padding-right: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
   color: white;
   text-decoration: none;
   font-family: 'Open Sans Condensed', sans-serif;
@@ -86,10 +87,21 @@ html, body {
 }
 
 .nav-item:hover a{
-  color: #DCDCDC;
+  color: #A9A9A9;
+  transition: color .2s ease-in;
 }
 
-button .nav-item{
+.highlight{
+  border: white solid 2px;
+  margin-left: 10px;
+
+}
+
+.highlight:hover{
+  background-color: white;
+  transition: background-color .2s ease-in;
+}
+/*button .nav-item{
   font-size: 20pt;
   padding-right: 60px;
   font-weight: 200;
@@ -97,7 +109,8 @@ button .nav-item{
   text-decoration: none;
   font-family: 'Open Sans Condensed', sans-serif;
   justify-content: center;
-}
+}*/
+
 
 
 
@@ -161,7 +174,7 @@ body {
   margin: 0;
   padding: 10pt;
   text-align: center;
-  padding: 8% 50px;
+  padding: 2% 50px;
   color: #4E557E;
 }
 
@@ -193,7 +206,7 @@ body {
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 24pt;
   color: darkgray;
-  padding: 20pt 100pt;
+  padding: 0pt 100px 20px 100px;
   line-height: 35pt;
   text-align: justify;
 }
@@ -223,11 +236,10 @@ body {
 
 .second-section{
   background-color: #F5F5F5;
-
 }
 
 .second-sect-intro{
-  padding: 40px;
+  padding: 40px 40px 10px 40px;
   text-align: center;
 }
 
@@ -246,7 +258,6 @@ body {
 }
 
 .sub-header{
-  font-family: 'Open Sans Condensed', sans-serif;
   font-size: 20pt;
   padding: 0px;
   color: darkgray;
@@ -257,6 +268,8 @@ body {
 .second-sect-body{
   display: flex;
   justify-content: center;
+  padding: 0px 200px 50px 200px;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .card{
@@ -264,7 +277,6 @@ body {
   margin-left: 10px;
   margin-right: 10px;
   background-color: white;*/
-  position: relative;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: column;
@@ -274,13 +286,14 @@ body {
   background-clip: border-box;
   border: 1px solid rgba(0,0,0,.125);
   border-radius: .25rem;
-  margin: 10px;
-  height: 500px;
+  margin: 15px;
+  height: 525px;
+  width: 330px;
 }
 
 .card img{
-  height: 275px;
-  width: 380px;
+  height: 253px;
+  width: 330px;
 }
 
 .card-header{
@@ -289,12 +302,54 @@ body {
   font-size: 30pt;
 }
 
+.card a{
+    text-decoration: none;
+    color: #4E557E;
+    font-weight: bolder;
+}
 .card-body{
-
+    text-align: center;
+    padding: 0px 30px;
+    font-size: 18pt;
+    font-weight: 550;
+    color: darkgray;
+    display: flex;
+    flex-direction: column;
+    height: 800px;
 }
 
+.learn-more{
+    margin: 25px 22px 25px;
+    padding: 10px;
+    background-color: transparent;
+    color: #4E557E;
+    border: #A9A9A9 solid 1px;
+}
 
+.learn-more:hover {
+  color: #A9A9A9;
+  background: #4E557E;
+  border: none;
+  transition: background-color .2s ease-in;
+}
 
+.third-section{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+.subtext a{
+  text-decoration: none;
+  color: #4E557E;
+}
+
+.subtext a:hover{
+  color: #A9A9A9;
+  transition: color .2s ease-in;
+}
 
 
 .short{
