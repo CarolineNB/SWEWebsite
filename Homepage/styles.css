@@ -444,6 +444,9 @@ body {
 }
 
 .card a{
+    display: flex;
+    align-content: center;
+    justify-content: center;
     text-decoration: none;
     color: #4E557E;
     font-weight: bolder;
@@ -460,11 +463,12 @@ body {
 }
 
 .learn-more{
-    margin: 25px 22px 25px;
-    padding: 10px;
-    background-color: transparent;
-    color: #4E557E;
-    border: #A9A9A9 solid 1px;
+  width: 85%;
+  margin: 25px 22px 25px;
+  padding: 10px;
+  background-color: transparent;
+  color: #4E557E;
+  border: #A9A9A9 solid 1px;
 }
 
 .learn-more:hover {
