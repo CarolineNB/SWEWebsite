@@ -1,0 +1,204 @@
+/*
+https://ucfswe.org/about/
+http://www.morganstanley.com/about-us
+https://swe.berkeley.edu/
+*/
+
+
+html, body {
+    margin: 0;
+    height: 100%;
+    color: #4E557E;
+}
+
+
+/* NAVIGATION BAR*/
+
+#navbar{
+  background-color: none;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  z-index:999;
+  left: 0;
+  right: 0;
+  opacity: .97;
+  transition: top 0.3s;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+
+.solid{
+  background-color: #56068c;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.transparent{
+  background-color: none;
+}
+
+.logo-link{
+  padding: 7px 30px 7px 20px;
+}
+
+.swe-logo{
+  height: 60px;
+  padding: 0;
+  border: 0px;
+  margin:0px;
+}
+
+/*Toggled Menu*/
+.toggleMenu{
+  display: none;
+}
+
+.dropbtn {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+
+/*Nav Links*/
+.nav-pages{
+  align-self: center;
+  margin-right: 15px;
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+    margin-left: 310px;
+    flex-wrap: wrap;
+    padding-right: 40px;
+}
+
+.nav-item a{
+  font-size: 18pt;
+  font-weight: bolder;
+  padding: 0px 35px 0px 35px;
+  color: white;
+  text-decoration: none;
+  font-family: 'Open Sans Condensed', sans-serif;
+  justify-content: center;
+}
+
+.nav-item:hover a{
+  color:  #4E557E;
+  transition: color .2s ease-in;
+}
+
+.highlight{
+  border: white solid 2px;
+  margin-left: 10px;
+  margin: 0px 25px;
+}
+
+.highlight:hover{
+  background-color: white;
+  transition: background-color .2s ease-in;
+}
+
+/* FLOATING BOX*/
+.bg-image{
+  background: url(../Images/nyc-bg.jpg);/*./Images/tandon.jpg);*/
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-attachment: fixed;
+  height: 32%;
+  justify-content: center;
+  display: flex;
+}
+
+.middle-ground{
+  filter: none;
+  text-align: center;
+  display: flex;
+  align-self: flex-end;
+  padding: 35px;
+  font-size: 47pt;
+  color: white;
+  letter-spacing: 11px;
+  text-shadow: 3px 3px 8px black;
+  font-family: 'Carme';
+}
+
+.first-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 60px 80px;
+}
+
+.first-sect-header{
+  font-family: 'Carme', sans-serif;
+  font-size: 35pt;
+  padding: 0px;
+  line-height: 45px;
+  letter-spacing: 1.5pt;
+}
+.first-sect-body{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 24pt;
+  color: darkgray;
+  padding: 10pt 100px 45px 200px;
+  line-height: 35pt;
+  text-align: left;
+}
+
+
+.second-section{
+  background-color: #F5F5F5;
+}
+
+.second-sect-intro{
+  padding: 70px 40px 10px 40px;
+  text-align: center;
+}
+
+.second-sect-header{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 55pt;
+  padding: 0px;
+  font-weight: 550;
+  line-height: 70px;
+  letter-spacing: 3pt;
+}
+.tall{
+  font-size: 120%;
+}
+.sub-header{
+  font-size: 20pt;
+  padding: 0px;
+  color: darkgray;
+  letter-spacing: 1pt;
+  font-weight: bolder;
+}
+
+.social-media{
+  padding: 20px;
+  text-align: center;
+}
+
+.fa {
+  padding: 18px;
+  width: 23px;
+  height: 21px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  background: #4E557E;
+  margin: 8px;
+  margin-top: 30px;
+  color: white;
+}
+
+.fa:hover {
+  background-color: #DBC554;
+  color: #4E557E;
+  transition: background-color .2s ease-in;
+}
