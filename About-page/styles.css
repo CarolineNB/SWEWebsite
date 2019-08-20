@@ -209,6 +209,10 @@ body {
   justify-content: center;
 }
 
+.odd{
+  width: 50%;
+}
+
 .leader-row img{
   width: 200px;
   height: 300px;
@@ -271,12 +275,17 @@ body {
   padding-bottom: 5px;
 }
 
+.committee-card p{
+  margin: 8px;
+  font-size: 15pt;
+}
+
 .third-section{
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 20px;
   padding: 50px;
+  text-align: center;
 }
-
 
 .row {
   display: flex;
@@ -315,7 +324,7 @@ body {
 }
 
 .social-media{
-  padding: 20px;
+  padding: 15px 0px 60px 0px;
   text-align: center;
 }
 

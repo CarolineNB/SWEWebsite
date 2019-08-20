@@ -153,10 +153,15 @@ html, body {
   width: 100%;
 }
 .social-media{
-  padding: 20px;
+  padding: 15px 0px 60px 0px;
   text-align: center;
 }
-
+.third-section{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 20px;
+  padding: 50px;
+  text-align: center;
+}
 .fa {
   padding: 18px;
   width: 23px;

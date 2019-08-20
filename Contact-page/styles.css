@@ -156,31 +156,55 @@ html, body {
 }
 
 .second-sect-intro{
-  padding: 70px 40px 10px 40px;
+  background-color: #F5F5F5;
+  padding: 55px 40px;
   text-align: center;
 }
 
 .second-sect-header{
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 55pt;
+  font-family: 'Carme', sans-serif;
+  font-size: 45pt;
   padding: 0px;
   font-weight: 550;
-  line-height: 70px;
-  letter-spacing: 3pt;
+  line-height: 60px;
 }
+
+.beyondSwe{
+  font-family: 'Carme', sans-serif;
+  font-size: 28pt;
+  display: flex;
+  justify-content:space-between;
+}
+
+.beyondSwe span{
+  padding: 30px 80px;
+}
+
+.beyondSwe a{
+  text-decoration: none;
+  border-bottom: 2px solid #DBC554;
+}
+
 .tall{
   font-size: 120%;
 }
 .sub-header{
+  font-family: 'Open Sans Condensed', sans-serif;
   font-size: 20pt;
-  padding: 0px;
+  padding-bottom: 10px;
   color: darkgray;
-  letter-spacing: 1pt;
+  letter-spacing: 3pt;
   font-weight: bolder;
+}
+.third-section{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 20px;
+  padding: 50px;
+  text-align: center;
 }
 
 .social-media{
-  padding: 20px;
+  padding: 15px 0px 60px 0px;
   text-align: center;
 }
 
