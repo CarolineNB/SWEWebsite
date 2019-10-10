@@ -228,9 +228,10 @@ body {
   font-size: 13pt;
   line-height: 18px;
   text-align: left;
-  padding: 13px;
+  padding: 20px;
   display: flex;
   flex-direction: column;
+
 }
 
 .description b{
@@ -239,13 +240,14 @@ body {
 
 .role{
   font-size: 35pt;
-  padding-bottom: 8px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   line-height: 37px;
 }
 
 .name{
   font-size: 18pt;
-  padding-bottom: 10px;
+  padding-bottom: 15px;
   line-height: 20px;
 }
 
