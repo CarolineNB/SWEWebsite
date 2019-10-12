@@ -1,0 +1,5 @@
+---
+deployment:
+ tasks:
+ - export DEPLOYPATH=/home/nyusweho/repositories/SWEWebsite
+ - /bin/cp index.html $DEPLOYPATH
